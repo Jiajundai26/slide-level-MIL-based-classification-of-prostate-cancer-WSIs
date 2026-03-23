@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+venv_gtex/
+venv/
+.venv/
+env/
+
+# Raw histology images (large data)
+histology_images_prostate/
+
+# Large inference outputs (too large for git)
+output/4class_heatmaps/
+output/4class_inference/
+output/binary_inference/
+output/supervised_attention_inference_combined/
+output/supervised_attention_inference_combined_finetune/
+output/supervised_attention_inference_gtex/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/

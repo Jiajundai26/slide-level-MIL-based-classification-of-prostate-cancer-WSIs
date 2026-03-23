@@ -1,0 +1,35 @@
+{
+  "train": true,
+  "tcga_feats_dir": "/sci-it/projects/cedmav/data/ARPA-H/Prostate_HnE/preprocessing/TCGA-PRAD/20x_256px_0px_overlap/features_uni_v2",
+  "tcga_labels_path": "/sci-it/projects/cedmav/data/ARPA-H/Prostate_HnE/preprocessing/TCGA-PRAD/labels_MIL/slide_labels.tsv",
+  "gtex_feats_dir": "/sci-it/projects/cedmav/data/ARPA-H/Prostate_HnE/preprocessing/GTEx_Prostate/20x_256px_0px_overlap/features_uni_v2",
+  "gtex_labels_path": "/sci-it/projects/cedmav/data/ARPA-H/Prostate_HnE/preprocessing/GTEx_Prostate/GTEx_prostate_labels.csv",
+  "output_dir": "output/trident_4class",
+  "hidden_dim": 256,
+  "attention_dim": 128,
+  "dropout": 0.25,
+  "epochs": 100,
+  "batch_size": 8,
+  "lr": 0.0001,
+  "weight_decay": 0.0001,
+  "max_patches": 4096,
+  "num_workers": 4,
+  "device": "cuda:0",
+  "balance_strategy": "focal",
+  "focal_gamma": 2.0,
+  "val_split": 0.15,
+  "test_split": 0.15,
+  "class_names": {
+    "0": "Normal",
+    "1": "G3 (Low-grade)",
+    "2": "G4 (Intermediate)",
+    "3": "G5 (High-grade)"
+  },
+  "num_classes": 4,
+  "class_distribution": {
+    "2": 48,
+    "3": 35,
+    "1": 13,
+    "0": 311
+  }
+}
