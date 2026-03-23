@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Raw WSI data
+WSI/
+annotations/
+
+# Large inference outputs (too large for git)
+output/combined_inference/
+output/combined_inference_supervised/
+output/combined_inference_supervised_attention/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/

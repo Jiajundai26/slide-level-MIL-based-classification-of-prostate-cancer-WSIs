@@ -1,0 +1,15 @@
+{
+  "feats_dir": "/sci-it/projects/cedmav/data/ARPA-H/Prostate_HnE/preprocessing/TCGA-PRAD/20x_256px_0px_overlap/features_uni_v2",
+  "labels_path": "/sci-it/projects/cedmav/data/ARPA-H/Prostate_HnE/preprocessing/TCGA-PRAD/labels_MIL/slide_labels.tsv",
+  "output_dir": "output/training",
+  "feature_dim": 1536,
+  "hidden_dim": 256,
+  "num_classes": 3,
+  "dropout": 0.25,
+  "epochs": 50,
+  "batch_size": 8,
+  "lr": 0.0001,
+  "weight_decay": 0.0001,
+  "max_patches": 4096,
+  "num_workers": 4
+}

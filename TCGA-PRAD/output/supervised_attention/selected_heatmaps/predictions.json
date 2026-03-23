@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-01-25T09:49:50.176436",
+  "checkpoint": "/local/data/magicscan/HnE/TCGA-PRAD_organize/output/supervised_attention/supervised_attention_20260123_010706/best_model.pt",
+  "mode": "cancer_vs_noncancer",
+  "num_slides": 3,
+  "predictions": [
+    {
+      "slide_id": "TCGA-VP-A87K-01Z-00-DX1.A1BED19B-7C83-4B88-A869-B138713A2292",
+      "predicted_class": 1,
+      "predicted_name": "Cancer",
+      "probability": 0.9277164340019226,
+      "confidence": 0.9277164340019226,
+      "num_patches": 11170
+    },
+    {
+      "slide_id": "TCGA-KK-A5A1-01Z-00-DX1.E2FB5324-5471-424D-95DB-AFB8736D237C",
+      "predicted_class": 1,
+      "predicted_name": "Cancer",
+      "probability": 0.8884084820747375,
+      "confidence": 0.8884084820747375,
+      "num_patches": 14490
+    },
+    {
+      "slide_id": "TCGA-HI-7169-01Z-00-DX1.ac873262-34a1-4a47-8178-6a2a279c02e5",
+      "predicted_class": 1,
+      "predicted_name": "Cancer",
+      "probability": 0.7767935991287231,
+      "confidence": 0.7767935991287231,
+      "num_patches": 3017
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+# TCGA-PRAD Feature Extraction Requirements
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+numpy<2
+pandas
+h5py
+torch>=2.0.0
+torchvision
+timm>=0.9.2
+tqdm
+PyYAML
+
+# For annotation processing
+shapely
+
+# HuggingFace (for downloading datasets and models)
+huggingface_hub
+transformers>=4.30.0
+
+# Image processing
+opencv-python
+scikit-image
+Pillow
+
+# Whole slide image processing
+openslide-python
+
+# Logging
+loguru
+
+# Training and evaluation
+scikit-learn

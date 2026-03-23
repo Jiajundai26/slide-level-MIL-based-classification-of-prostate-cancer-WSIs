@@ -1,0 +1,23 @@
+{
+  "train": true,
+  "create_labels": false,
+  "dataset": "gtex",
+  "combine_gtex": false,
+  "mode": "cancer_vs_noncancer",
+  "feats_dir": "/sci-it/projects/cedmav/data/ARPA-H/Prostate_HnE/preprocessing/TCGA-PRAD/20x_256px_0px_overlap/features_uni_v2",
+  "gtex_feats_dir": "/sci-it/projects/cedmav/data/ARPA-H/Prostate_HnE/preprocessing/GTEx_Prostate/20x_256px_0px_overlap/features_uni_v2",
+  "labels_path": "/sci-it/projects/cedmav/data/ARPA-H/Prostate_HnE/preprocessing/TCGA-PRAD/labels_MIL/slide_labels.tsv",
+  "gtex_labels_path": "/sci-it/projects/cedmav/data/ARPA-H/Prostate_HnE/preprocessing/GTEx_Prostate/GTEx_prostate_labels.csv",
+  "annotations_dir": "/local/data/magicscan/HnE/TCGA-PRAD_organize/annotations/geojsons",
+  "output_dir": "/local/data/magicscan/HnE/GTEx_prostate/output/binary_classification_gtex",
+  "hidden_dim": 256,
+  "attention_dim": 128,
+  "dropout": 0.25,
+  "epochs": 50,
+  "batch_size": 8,
+  "lr": 0.0001,
+  "weight_decay": 0.0001,
+  "max_patches": 4096,
+  "num_workers": 4,
+  "device": "cuda:0"
+}
