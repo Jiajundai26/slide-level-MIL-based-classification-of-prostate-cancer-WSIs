@@ -1,0 +1,62 @@
+{
+  "timestamp": "2026-01-30T13:01:15.618613",
+  "checkpoint": "/local/data/magicscan/HnE/GTEx_prostate/output/trident_4class/4class_focal_20260130_115913/best_model.pt",
+  "dataset": "combined",
+  "num_classes": 4,
+  "class_names": {
+    "0": "Normal",
+    "1": "G3 (Low-grade)",
+    "2": "G4 (Intermediate)",
+    "3": "G5 (High-grade)"
+  },
+  "num_slides": 3,
+  "num_by_source": {
+    "TCGA-PRAD": 3
+  },
+  "prediction_distribution": {
+    "G3 (Low-grade)": 1,
+    "G5 (High-grade)": 1,
+    "G4 (Intermediate)": 1
+  },
+  "predictions": [
+    {
+      "slide_id": "TCGA-HI-7169-01Z-00-DX1.ac873262-34a1-4a47-8178-6a2a279c02e5",
+      "predicted_class": 1,
+      "predicted_name": "G3 (Low-grade)",
+      "predicted_short": "G3",
+      "confidence": 0.5014824271202087,
+      "prob_normal": 0.054944273084402084,
+      "prob_g3": 0.5014824271202087,
+      "prob_g4": 0.2965894937515259,
+      "prob_g5": 0.1469837874174118,
+      "num_patches": 3017,
+      "source": "TCGA-PRAD"
+    },
+    {
+      "slide_id": "TCGA-KK-A5A1-01Z-00-DX1.E2FB5324-5471-424D-95DB-AFB8736D237C",
+      "predicted_class": 3,
+      "predicted_name": "G5 (High-grade)",
+      "predicted_short": "G5",
+      "confidence": 0.895096480846405,
+      "prob_normal": 0.0030423817224800587,
+      "prob_g3": 0.02202186919748783,
+      "prob_g4": 0.07983920723199844,
+      "prob_g5": 0.895096480846405,
+      "num_patches": 14490,
+      "source": "TCGA-PRAD"
+    },
+    {
+      "slide_id": "TCGA-VP-A87K-01Z-00-DX1.A1BED19B-7C83-4B88-A869-B138713A2292",
+      "predicted_class": 2,
+      "predicted_name": "G4 (Intermediate)",
+      "predicted_short": "G4",
+      "confidence": 0.7149728536605835,
+      "prob_normal": 0.004630236886441708,
+      "prob_g3": 0.12516966462135315,
+      "prob_g4": 0.7149728536605835,
+      "prob_g5": 0.15522721409797668,
+      "num_patches": 11170,
+      "source": "TCGA-PRAD"
+    }
+  ]
+}
